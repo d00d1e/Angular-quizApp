@@ -6,11 +6,13 @@ import { ReactiveFormsModule} from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { QuestionFormComponent } from './question-form/question-form.component';
+import { ResultsComponent } from './results/results.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    QuestionFormComponent
+    QuestionFormComponent,
+    ResultsComponent
   ],
   imports: [
     BrowserModule,
