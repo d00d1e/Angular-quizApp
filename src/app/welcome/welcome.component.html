@@ -1,0 +1,19 @@
+<div class="welcome">
+  <mat-toolbar color="primary" role="heading">
+    <h1>TEST YOUR KNOWLEGE!</h1>
+  </mat-toolbar>
+
+  <div *ngFor="let q of quiz">
+    <mat-card>
+      <mat-card-content>
+        <mat-card-title>{{q.label}}</mat-card-title>
+        <mat-card-subtitle>{{q.description}}</mat-card-subtitle>
+        <mat-card-actions>
+          <button mat-raised-button>
+            <a routerLink="/{{q.name}}" class="btn btn-primary">Quiz me!</a>
+          </button>
+        </mat-card-actions>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

@@ -9,15 +9,17 @@ import { Question } from '../quiz.model';
 })
 
 export class QuestionFormComponent implements OnInit {
+
   @Input() question: Question;
-  @Output() onChoiceMade = new EventEmitter<string>()
-  
-  public form: FormGroup;
+  @Output() onChoiceMade = new EventEmitter<string>();
+
+  form: FormGroup;
 
   ngOnInit() {
     this.form = new FormGroup({
       choice: new FormControl()
     });
+
     this.form.valueChanges.subscribe(this.onChange);
   }
 

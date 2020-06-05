@@ -1,6 +1,16 @@
 <div class="results">
-  <h2>Results</h2>
-  <div class="answer" *ngFor="let a of answers.values" [ngClass]="{correct: a.correct}">
-    {{a.value}}
-  </div>
+  <mat-toolbar color="primary" role="heading">
+    <h1>RESULTS</h1>
+  </mat-toolbar>
+  <mat-list>
+    <mat-list-item>
+      <div></div>
+      <div class="answer" *ngFor="let a of answers.values" [ngClass]="{correct:a.correct}">
+          {{a.value}}
+      </div>
+    </mat-list-item>
+  </mat-list>
+    <button mat-raised-button>
+      <a routerLink="/welcome" class="btn btn-primary">Choose another quiz</a>
+    </button>
 </div>
