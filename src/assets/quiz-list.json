@@ -1,0 +1,26 @@
+[
+  {
+    "label": "Capitals",
+    "name": "capitals",
+    "description": "Do you know your state Capitals?",
+    "fileName": "capitals.json"
+  },
+  {
+    "label": "Animals",
+    "name": "animals",
+    "description": "How much do you know about Animals?",
+    "fileName": "animals.json"
+  },
+  {
+    "label": "Geography",
+    "name": "geography",
+    "description": "Do you remember Geography class?",
+    "fileName": "geography.json"
+  },
+  {
+    "label": "Science",
+    "name": "science",
+    "description": "How rusty is your Science?",
+    "fileName": "science.json"
+  }
+]
