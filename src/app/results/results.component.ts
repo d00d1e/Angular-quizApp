@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { Question } from '../quiz.model';
 import { Answers } from '../quiz.model';
 
 @Component({
@@ -7,5 +8,8 @@ import { Answers } from '../quiz.model';
   styleUrls: ['./results.component.scss']
 })
 export class ResultsComponent {
-  @Input() answers: Answers;      
+  @Input() answers: Answers;
+  @Input() question: Question;      
+
+ 
 }
