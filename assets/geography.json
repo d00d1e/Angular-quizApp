@@ -1,0 +1,47 @@
+[
+  {
+    "label": "What is Earth's largest continent?",
+    "choices": [
+      {"value": "Europe", "correct": false},
+      {"value": "Antartica", "correct": false},
+      {"value": "Africa", "correct": false},
+      {"value": "Asia", "correct": true}
+    ]
+  },
+  {
+    "label": "What country accounts for more than half of the western coastline of South America?",
+    "choices": [
+      {"value": "Bolivia", "correct": false},
+      {"value": "Ecuador", "correct": false},
+      {"value": "Peru", "correct": false},
+      {"value": "Chile", "correct": true}
+    ]
+  },
+  {
+    "label": "What river runs through Baghdad?",
+    "choices": [
+      {"value": "Tigris", "correct": true},
+      {"value": "Euphrates", "correct": false},
+      {"value": "Karun", "correct": false},
+      {"value": "Jordan", "correct": false}
+    ]
+  },
+  {
+    "label": "What country has the most natural lakes?",
+    "choices": [
+      {"value": "United States", "correct": false},
+      {"value": "Australia", "correct": false},
+      {"value": "Canada", "correct": true},
+      {"value": "India", "correct": false}
+    ]
+  },
+  {
+    "label": "What is the only sea without any coasts?",
+    "choices": [
+      {"value": "Sargasso Sea", "correct": true},
+      {"value": "Adriatic Sea", "correct": false},
+      {"value": "Celebes Sea", "correct": false},
+      {"value": "Mediterranean Sea", "correct": false}
+    ]
+  }
+]

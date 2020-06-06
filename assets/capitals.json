@@ -1,0 +1,47 @@
+[
+  {
+    "label": "What is the capital of Alabama?",
+    "choices": [
+      {"value": "Montgomery", "correct": true},
+      {"value": "Janeau", "correct": false},
+      {"value": "Raleigh", "correct": false},
+      {"value": "Lansing", "correct": false}
+    ]
+  },
+  {
+    "label": "What is the capital of Alaska?",
+    "choices": [
+      {"value": "Boston", "correct": false},
+      {"value": "Juneau", "correct": true},
+      {"value": "Salem", "correct": false},
+      {"value": "Frankfort", "correct": false}
+    ]
+  },
+{
+    "label": "What is the capital of Arizona?",
+    "choices": [
+      {"value": "Boise", "correct": false},
+      {"value": "Bismarck", "correct": false},
+      {"value": "Salem", "correct": false},
+      {"value": "Pheonix", "correct": true}
+    ]
+  },
+  {
+    "label": "What is the capital of Arkansas?",
+    "choices": [
+      {"value": "Pierre", "correct": false},
+      {"value": "Little Rock", "correct": true},
+      {"value": "Harrisburg", "correct": false},
+      {"value": "Nashville", "correct": false}
+    ]
+  },
+  {
+    "label": "What is the capital of California?",
+    "choices": [
+      {"value": "Sacremento", "correct": true},
+      {"value": "Richmond", "correct": false},
+      {"value": "Augusta", "correct": false},
+      {"value": "Salem", "correct": false}
+    ]
+  }
+]

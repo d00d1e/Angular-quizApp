@@ -1,0 +1,47 @@
+[
+  {
+    "label": "Which of these dinosaurs lived during the Jurassic Period?",
+    "choices": [
+      {"value": "Triceratops", "correct": false},
+      {"value": "Stegosaurus", "correct": true},
+      {"value": "Eoraptor", "correct": false},
+      {"value": "Tyrannosaurus Rex", "correct": false}
+    ]
+  },
+  {
+    "label": "Which of the following is NOT a characteristic of reptiles?",
+    "choices": [
+      {"value": "They are warmblooded", "correct": true},
+      {"value": "Most lay eggs", "correct": false},
+      {"value": "They have thick scaly skin", "correct": false},
+      {"value": "They breathe with lungs", "correct": false}
+    ]
+  },
+  {
+    "label": "Which is the slowest animal?",
+    "choices": [
+      {"value": "Snail", "correct": false},
+      {"value": "Tortoise", "correct": false},
+      {"value": "Sloth", "correct": true},
+      {"value": "Sea Anemone", "correct": false}
+    ]
+  },
+  {
+    "label": "Which of these mammals lays eggs?",
+    "choices": [
+      {"value": "Echidna", "correct": false},
+      {"value": "Bongo", "correct": false},
+      {"value": "Kiwi", "correct": false},
+      {"value": "Pangolin", "correct": true}
+    ]
+  },
+  {
+    "label": "What is the term for a young horse?",
+    "choices": [
+      {"value": "Cygnet", "correct": false},
+      {"value": "Cub", "correct": false},
+      {"value": "Foal", "correct": true},
+      {"value": "Calf", "correct": false}
+    ]
+  }
+]
